@@ -1,0 +1,125 @@
+body{
+background-color: #202225;
+}
+.roleBox {
+  border-radius: 3px;
+  padding: 0px 3px;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.status {
+  box-sizing: border-box;
+  border-width: 2px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  float: left;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.online {
+  background-color: #42b581;
+  border-color: #69c49a;
+}
+
+.idle {
+  background-color: #faa61a;
+  border-color: #fbb848;
+}
+
+.dnd {
+  background-color: #f04747;
+  border-color: #f36c6c;
+}
+
+.offline {
+  background-color: #747f8d;
+  border-color: #9099a4;
+}
+
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 8px 12px;
+        outline: 0;
+        border: 0px solid #9c5656;
+        border-radius: 5px;
+        background: #333;
+        color: #ffffff;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #ffffff;
+            background: #333;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #c0bebe transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #ffffff;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #ffffff;
+}
+
+.container {
+  border-color:#999;
+}
+
+  .css-3d-text {
+    text-align: center;
+    color: #ffffff;    color: #fff;
+    background-color: #202225;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+
+ }
+
+.jumbotron {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
